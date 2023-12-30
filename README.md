@@ -4,9 +4,9 @@ Dockerfile that generates an Ubuntu image with a variety of tools useful for CTF
 Feel free to recommend adding more software.
 
 ## TODO
-- [*] Add tools from training.olicyber.it
-- [*] Elaborate README with commands for building and using with Distrobox
-- [*] Automatic builds
+- [x] Add tools from training.olicyber.it
+- [x] Elaborate README with commands for building and using with Distrobox
+- [x] Automatic builds
 - [ ] Similar project but using Nix
 
 ---
