@@ -17,6 +17,7 @@ Using GitHub Workflows and the Dockerfile an image is built periodically which y
 
 **Many programs are located in /opt/ctf**
 ### Distrobox
+This creates a Flag directory in your home. This directory is then used as the container's home directory, **but the container still has access to everything else too**. If you want to restrict the container's access to the filesystem you should take a look at the Distrobox help/manual and see what flag fits your needs.
 ```
 mkdir ~/Flag
 distrobox create -n flag -i ghcr.io/argrat/where-are-the-flags:main -H ~/Flag/
