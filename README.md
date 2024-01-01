@@ -23,6 +23,7 @@ distrobox create -n flag -i ghcr.io/argrat/where-are-the-flags:main -H ~/Flag/
 distrobox enter flag
 ```
 ### Docker/Podman
+BEWARE: using GUI programs through one of these requires further configuration.
 ```
 docker/podman pull ghcr.io/argrat/where-are-the-flags:main
 # Then do whatever you want with it
